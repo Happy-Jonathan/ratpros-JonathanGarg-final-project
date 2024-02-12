@@ -10,7 +10,7 @@ Feature: Create and validate account
 
   Scenario: Create new account
 
-    When Enter email address "ShibaInuLOL10@aol.com"
+    When Enter email address "ShibaInuLOL11@aol.com"
     And Enter first name "Happy"
     And Enter gender
     And Enter employment status "Student"
@@ -19,10 +19,10 @@ Feature: Create and validate account
     And Enter marital status
     And Enter date of birth "03222020"
     And Click new account button
-    And Enter username "HappyUsername10" and password "HappyPassword" and confirm password "HappyPassword"
+    And Enter username "HappyUsername11" and password "HappyPassword" and confirm password "HappyPassword"
     And Click submit button
     And Click login page button
-    And Enter username "HappyUsername10" and password "HappyPassword"
+    And Enter username "HappyUsername11" and password "HappyPassword"
     And Click sign in button
     And Click settings button
     Then Validate email address

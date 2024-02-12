@@ -144,7 +144,7 @@ public class AccountSteps extends SeleniumUtilities {
     public void confirmEmail(){
 
         String email = getText(Account.CONFIRM_EMAIL);
-        Assert.assertEquals("ShibaInuLOL9@aol.com" , email);
+        Assert.assertEquals("ShibaInuLOL11@aol.com" , email);
 
     }
 
